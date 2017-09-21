@@ -1,0 +1,6 @@
+*.cpp eol=lf
+*.mm eol=lf
+*.h eol=lf
+*.py eol=lf
+*.hpp eol=lf
+*.gd eol=lf

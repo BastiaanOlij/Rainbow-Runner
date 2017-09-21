@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/lepricon.dae" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Lepricon.gd" type="Script" id=2]
+
+[node name="Lepricon" instance=ExtResource( 1 )]
+
+transform = Transform( -1, -8.74228e-08, 3.82137e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 0, 0, 0 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="root_grp" parent="."]
+
+transform = Transform( 0.01, 0, 0, 0, 0.00999216, -0.000395884, 0, 0.000395884, 0.00999216, 0, 0, 0 )
+
+[node name="AnimationPlayer" parent="."]
+
+autoplay = "default"
+_sections_unfolded = [ "Playback Options", "playback" ]
+
+
